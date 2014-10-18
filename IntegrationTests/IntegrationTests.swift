@@ -8,6 +8,7 @@
 
 import UIKit
 import XCTest
+import Foundation
 
 class IntegrationTests: XCTestCase {
     
@@ -54,7 +55,7 @@ class IntegrationTests: XCTestCase {
 		{
 			for i in 1...1_000_000
 			{
-				i*i
+				i*5
 			}
 		}
 	}
@@ -65,7 +66,7 @@ class IntegrationTests: XCTestCase {
 		{
 			for i in 1...1_000_000
 			{
-				i / 10
+				i/5
 			}
 		}
 	}
